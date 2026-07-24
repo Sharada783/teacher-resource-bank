@@ -164,4 +164,13 @@ body {
 
 .resource-links a:hover {
     background-color: #163a5c;
+}.question-stems {
+    padding: 15px 20px;
+    background-color: #f4f6f8;
+    border-left: 4px solid #1f4e79;
+    border-radius: 6px;
+}
+
+.question-stems p {
+    margin: 8px 0;
 }
