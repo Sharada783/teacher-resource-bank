@@ -173,4 +173,22 @@ body {
 
 .question-stems p {
     margin: 8px 0;
+}.resource-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.resource-title h3 {
+    margin: 0;
+}
+
+.resource-icon {
+    width: 42px;
+    height: 42px;
+    padding: 8px;
+    color: #1f4e79;
+    background-color: #e7f0f8;
+    border-radius: 10px;
+    flex-shrink: 0;
 }
