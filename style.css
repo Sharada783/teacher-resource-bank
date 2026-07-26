@@ -199,4 +199,19 @@ body {
     .two-column-grid {
         grid-template-columns: 1fr;
     }
+}/* Two-column layout for framework cards */
+
+.two-column-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(350px, 1fr));
+    gap: 25px;
+    align-items: start;
+}
+
+/* Responsive layout for smaller screens */
+
+@media (max-width: 900px) {
+    .two-column-grid {
+        grid-template-columns: 1fr;
+    }
 }
